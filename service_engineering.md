@@ -1,4 +1,5 @@
 #Service Engineering
+
 | Capability Level | Capability Name | Description | Observed Behaviour | Project Scope |
 |--------|--------|--------|--------|--------|
 |0|Service Engineering: Minimum viable Capability|Development focused team define their own standards.|Development have accepted internal standards and guidelines but not shared them.<br>**Test and operations capability are not considered necessary for new feature development.**<br>There is little-to-no trust between software, operations and test engineers as teams don’t understand or value each other’s domains, expertise, experience or contribution.|Codify development standards include language choices, style guides, code review processes as well as IDE, LINT and other tool choices.<br> Share these standards with operations and test engineers.<br>**Apply development standards to existing operational scripts and automated tests and store all operations and test code in the source control repository no matter how bad it is.**<br>Initiate code reviews for operations and test code.|
